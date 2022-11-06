@@ -29,7 +29,7 @@
  <http://stackoverflow.com>{:target="_blank"}
   <a href="http://stackoverflow.com" target="_blank">external link</a>
   
-* **EC2** (Elastic Compute Cloud) 
+* **Amazon EC2** (Amazon Elastic Compute Cloud) 
   * 거의 모든 워크로드에 적합한 안전하고 크기 조정 가능한 컴퓨팅 용량
   * 동일한 인스턴스는 두개의 개별 가용영역에 배치할 수 없다.
   * 한 인스턴스는 여러개의 NAT 주소를 가질수 없다.
@@ -38,76 +38,80 @@
 
 * **Amazon EC2 Auto Scaling** [Link](https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html)
   * Amazon EC2 Auto Scaling을 사용하면 애플리케이션의 로드를 처리할 수 있는 정확한 수의 Amazon EC2 인스턴스를 유지할 수 있다. 
-  * 
+
   
 
-* **ECS** (Elastic Container Service) [Link](https://docs.aws.amazon.com/ko_kr/AmazonECS/latest/developerguide/Welcome.html)
+* **Amazon ECS** (Amazon Elastic Container Service) [Link](https://docs.aws.amazon.com/ko_kr/AmazonECS/latest/developerguide/Welcome.html)
   * 확장성이 뛰어나고 빠른 컨테이너 관리 서비스
   * 클러스터에서 컨테이너를 실행, 중지 및 관리할 수 있다.
   
   
-* **S3** (Simple Storage Service) [Link](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/Welcome.html)
+* **Amazon S3** (Amazon Simple Storage Service) [Link](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/Welcome.html)
   * 업계 최고의 확장성, 데이터 가용성, 보안 및 성능을 제공하는 객체 스토리지 서비스
   * 데이터 레이크, 웹 사이트, 모바일 애플리케이션, 백업 및 복원, 아카이브, 엔터프라이즈 애플리케이션, IoT 디바이스, 
     빅 데이터 분석 등 다양한 사용 사례에서 원하는 양의 데이터를 저장하고 보호할 수 있다.
 
   
-* **API Gateway** [Link](https://docs.aws.amazon.com/ko_kr/apigateway/latest/developerguide/welcome.html)
+* **Amazon API Gateway** [Link](https://docs.aws.amazon.com/ko_kr/apigateway/latest/developerguide/welcome.html)
   * 규모와 관계없이 REST 및 WebSocket API를 생성, 게시, 유지, 모니터링 및 보호하기 위한 AWS 서비스
   
   
-* **Lambda** [Link](https://docs.aws.amazon.com/ko_kr/lambda/latest/dg/welcome.html)
+* **Amazon Lambda** [Link](https://docs.aws.amazon.com/ko_kr/lambda/latest/dg/welcome.html)
   * 서버를 프로비저닝하거나 관리하지 않고도 코드를 실행할 수 있게 해주는 컴퓨팅 서비스
   * 고가용성 컴퓨팅 인프라에서 코드를 실행하고 서버와 운영 체제 유지 관리, 용량 프로비저닝 및 자동 조정, 코드 및 보안 패치 배포, 로깅 등 모든 컴퓨팅 리소스 관리를 수행
 
-* **Athena** [Link](https://docs.aws.amazon.com/ko_kr/athena/latest/ug/what-is.html)
+* **Amazon Athena** [Link](https://docs.aws.amazon.com/ko_kr/athena/latest/ug/what-is.html)
   * 표준 SQL을 사용하여 Amazon S3(Amazon Simple Storage Service)에 있는 데이터를 직접 간편하게 분석할 수 있는 대화형 쿼리 서비스
   
   
-* **Redshift** [Link](https://docs.aws.amazon.com/ko_kr/redshift/latest/mgmt/welcome.html)
+* **Amazon Redshift** [Link](https://docs.aws.amazon.com/ko_kr/redshift/latest/mgmt/welcome.html)
   * 클라우드에서 완벽하게 관리되는 페타바이트급 데이터 웨어하우스 서비스
   
   
-* 
-  *
-  *
+* **Amazon QuickSight** [Link](https://docs.aws.amazon.com/ko_kr/quicksight/latest/user/welcome.html)
+  * 제공하는 데 사용할 수 있는 클라우드 규모의 비즈니스 인텔리전스 (BI, Business Intelligence)
+  
+  ✏️ 비즈니스 인텔리전스(BI, Business Intelligence)는 기업에서 데이터를 수집, 정리, 분석하고 활용하여 효율적인 의사결정을 할 수 있는 방법에 대해 연구하는 학문 [Link](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4_%EC%9D%B8%ED%85%94%EB%A6%AC%EC%A0%84%EC%8A%A4)
 
-* 
-  *
-  *
+* **Amazon DynamoDB** [Link](https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/Introduction.html)
+  * 완전관리형 NoSQL 데이터베이스 서비스로서 원활한 확장성과 함께 빠르고 예측 가능한 성능을 제공
+  * 유휴 시 암호화를 제공하여 중요한 데이터 보호와 관련된 운영 부담 및 복잡성을 제거
 
   
-* 
-  *
-  *
+* **ALB** (Application Load Balancer) [Link](https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/application/introduction.html)
+  * Elastic Load Balancing은 둘 이상의 가용 영역에서 EC2 인스턴스, 컨테이너, IP 주소 등 여러 대상에 걸쳐 수신되는 트래픽을 자동으로 분산한다.
+  * 등록된 대상의 상태를 모니터링하면서 상태가 양호한 대상으로만 트래픽을 라우팅한다.
+  * 수신 트래픽이 시간이 지남에 따라 변경됨에 따라 로드 밸런서를 확장한다.
+  * 대다수의 워크로드에 맞게 자동으로 조정할 수 있다.
+  
+  
+* **AWS Shield Advanced** [Link](https://docs.aws.amazon.com/ko_kr/waf/latest/developerguide/ddos-advanced-summary.html)
+  * DDoS 공격, 볼류메트릭 봇, 취약성 악용 시도와 같은 외부 위협으로부터 애플리케이션을 보호하는 데 도움이 되는 관리형 서비스
+  * 공격으로부터 더 높은 수준의 보호
 
   
-* 
-  *
-  *
-
-* 
-  *
-  *
+* **Amazon SES** (Amazon Simple Email Service) [Link1](https://docs.aws.amazon.com/ko_kr/ses/latest/dg/Welcome.html) [Link2](https://aws.amazon.com/ko/ses/)
+  * 대용량 인바운드 및 아웃바운드 클라우드 이메일 서비스
+  * 사용자의 이메일 주소와 도메인을 사용해 이메일을 보내고 받기 위한 경제적이고 손쉬운 방법을 제공하는 이메일 플랫폼
 
   
-* 
-  *
-  *
+* **AWS CloudTrail** [Link](https://docs.aws.amazon.com/ko_kr/awscloudtrail/latest/userguide/cloudtrail-user-guide.html)
+  * AWS 계정의 운영 및 위험 감사, 거버넌스 및 규정 준수를 활성화하는 데 도움이 되는 AWS 서비스
+  * 사용자, 역할 또는 AWS 서비스가 수행하는 작업은 CloudTrail에 이벤트로 기록된다.
 
   
-* 
-  *
-  *
-
-* 
-  *
-  *
+* **Amazon CloudWatch** [Link](https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html)
+  * Amazon Web Services(AWS) 리소스 및 AWS에서 실행되는 애플리케이션을 실시간으로 모니터링
+  * CloudWatch를 사용하여 리소스 및 애플리케이션에 대해 측정할 수 있는 변수인 지표를 수집하고 추적할 수 있다.
 
   
-* 
-  *
-  *
+* **Amazon Kinesis Data Firehose Firehose** [Link](https://docs.aws.amazon.com/ko_kr/firehose/latest/dev/what-is-this-service.html)
+  * 실시간 전송을 위한 완전관리형 서비스
+
+  
+* **Amazon VPC** (Amazon Virtual Private Cloud) [Link](https://docs.aws.amazon.com/ko_kr/vpc/latest/userguide/what-is-amazon-vpc.html)
+  * 사용자가 정의한 가상 네트워크로 AWS 리소스를 시작할 수 있다.
+  * 이 가상 네트워크는 AWS의 확장 가능한 인프라를 사용한다는 이점과 함께 고객의 자체 데이터 센터에서 운영하는 기존 네트워크와 매우 유사하다.
 
   
 * 
