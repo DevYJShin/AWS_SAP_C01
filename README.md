@@ -23,6 +23,8 @@
 
 * CloudFormation
   * CloudFormation StackSets은 cf템플릿에서 aws리소스 구성을 정의할 수 있다.
+ 
+ [go](http://stackoverflow.com){:target="_blank" rel="noopener"}
   
 * [EC2 (Elastic Compute Cloud)] <a href="https://www.google.co.kr/" target=_blank> Link </a>
   * 거의 모든 워크로드에 적합한 안전하고 크기 조정 가능한 컴퓨팅 용량
