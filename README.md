@@ -27,6 +27,7 @@
  [go](http://stackoverflow.com){:target="_blank" rel="noopener"}
  [go](http://stackoverflow.com){:target="_blank"}
  <http://stackoverflow.com>{:target="_blank"}
+  <a href="http://stackoverflow.com" target="_blank">external link</a>
   
 * [EC2 (Elastic Compute Cloud)] <a href="https://www.google.co.kr/" target=_blank> Link </a>
   * 거의 모든 워크로드에 적합한 안전하고 크기 조정 가능한 컴퓨팅 용량
