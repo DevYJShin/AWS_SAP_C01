@@ -24,14 +24,14 @@
 * CloudFormation
   * CloudFormation StackSets은 cf템플릿에서 aws리소스 구성을 정의할 수 있다.
   
-* EC2 (Elastic Compute Cloud) [LINK](https://aws.amazon.com/ko/ec2/){: target="_blank"}
+* EC2 (Elastic Compute Cloud) [LINK](https://aws.amazon.com/ko/ec2/){:target="_blank"}
   * 거의 모든 워크로드에 적합한 안전하고 크기 조정 가능한 컴퓨팅 용량
   * 동일한 인스턴스는 두개의 개별 가용영역에 배치할 수 없다.
   * 한 인스턴스는 여러개의 NAT 주소를 가질수 없다.
   * Amazon Elastic Compute Cloud(Amazon EC2)는 소프트웨어 시스템을 구축하고 호스팅하는 데 사용하는 크기 조정 가능한 
     컴퓨팅 용량(말 그대로 Amazon 데이터 센터의 서버)을 제공하는 웹 서비스이다.
 
-* Amazon EC2 Auto Scaling [LINK](https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html){: target="_blank"}
+* Amazon EC2 Auto Scaling [LINK](https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html){:target="_blank"}
   * Amazon EC2 Auto Scaling을 사용하면 애플리케이션의 로드를 처리할 수 있는 정확한 수의 Amazon EC2 인스턴스를 유지할 수 있다. 
   * 
   
@@ -45,7 +45,7 @@
   *
   *
 
-[LINK](){: target="_blank"}
+[LINK](){:target="_blank"}
 
 </details> <!-- 더보기 기능 -->
 
