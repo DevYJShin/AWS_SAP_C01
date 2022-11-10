@@ -202,7 +202,30 @@ Q. 44
 examtopics link
 https://www.examtopics.com/discussions/amazon/view/74113-exam-aws-certified-solutions-architect-professional-topic-1/
 
+Q. 58 문제와 보기 표기 오류
+ 
+A retailer hosts a mission-critical online service on an Amazon Elastic Container Service (Amazon ECS) cluster that is comprised of Amazon EC2 instances. 
+The web service accepts POST requests from end users and publishes data to a MySQL database running on its own EC2 server. 
+The business must take precautions to avoid data loss.
+Currently, the process of deploying code requires manual changes to the ECS service. 
+End users reported sporadic 502 Bad Gateway failures in response to genuine web requests during a recent deployment.
+The organization want to develop a dependable solution to avoid a recurrence of this situation. 
+Additionally, the organization wishes to automate code deployments. The solution should be highly accessible and cost-effective.
 
+Which combination of actions will satisfy these criteria? (Select three.)
+
+A. Run the web service on an ECS cluster that has a Fargate launch type. Use AWS CodePipeline and AWS CodeDeploy to perform a blue/green deployment with validation testing to update the ECS service.
+B. Migrate the MySQL database to run on an Amazon RDS for MySQL Multi-AZ DB instance that uses Provisioned IOPS SSD (io2) storage.
+C. Configure an Amazon Simple Queue Service (Amazon SQS) queue as an event source to receive the POST requests from the web service. Configure an AWS Lambda function to poll the queue. Write the data to the database.
+D. Run the web service on an ECS cluster that has a Fargate launch type. Use AWS CodePipeline and AWS CodeDeploy to perform a canary deployment to update the ECS service.
+E. Configure an Amazon Simple Queue Service (Amazon SQS) queue. Install the SQS agent on the containers that run in the ECS cluster to poll the queue. Write the data to the database.
+F. Migrate the MySQL database to run on an Amazon RDS for MySQL Multi-AZ DB instance that uses General Purpose SSD (gp3) storage.
+Answer: ACF
+ 
+examtopics link
+ https://www.examtopics.com/discussions/amazon/view/74154-exam-aws-certified-solutions-architect-professional-topic-1/
+ 
+ 
 Q. 66
 * 오답 정오표 : B -> 정답
 * VCE     정답 : A
@@ -224,6 +247,17 @@ Q. 99
 examtopics link
 https://www.examtopics.com/discussions/amazon/view/80168-exam-aws-certified-solutions-architect-professional-topic-1/
 
+ Q. 109 문제 표기 오류 - What should the solutions architect do to meet this requirement7
+ 
+A company is running a large containerized workload in the AWS Cloud. The workload consists of approximately 100 different services. The company uses
+Amazon Elastic Container Service (Amazon ECS) to orchestrate the workload.
+Recently, the company's development team started using AWS Fargate instead of Amazon EC2 instances in the ECS cluster. In the past, the workload has come close to running the maximum number of EC2 instances that are available in the account.
+The company is worried that the workload could reach the maximum number of ECS tasks that are allowed. A solutions architect must implement a solution that will notify the development team when Fargate reaches 80% of the maximum number of tasks.
+What should the solutions architect do to meet this requirement?
+
+examtopics link
+https://www.examtopics.com/discussions/amazon/view/68851-exam-aws-certified-solutions-architect-professional-topic-1/ 
+ 
 Q. 186
 * 오답 정오표 : B -> 정답
 * VCE     정답 : C
