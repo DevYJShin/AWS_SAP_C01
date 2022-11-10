@@ -180,6 +180,90 @@
 </details> <!-- 더보기 기능 -->
 
 
+## 오답 정리
+<details> <!-- 더보기 기능 -->
+<summary>
+자세히 보기
+</summary>
+
+오답 정오표와 VCE 답이 갈리는 문제
+
+Q. 32
+* 오답 정오표 :  ACE -> 정답
+* VCE     정답 :  BCE
+
+examtopics link
+https://www.examtopics.com/discussions/amazon/view/60213-exam-aws-certified-solutions-architect-professional-topic-1/
+
+Q. 44
+* 오답 정오표 : D
+* VCE     정답 : B -> 정답
+
+examtopics link
+https://www.examtopics.com/discussions/amazon/view/74113-exam-aws-certified-solutions-architect-professional-topic-1/
+
+
+Q. 66
+* 오답 정오표 : B -> 정답
+* VCE     정답 : A
+
+examtopics link
+https://www.examtopics.com/discussions/amazon/view/51221-exam-aws-certified-solutions-architect-professional-topic-1/
+
+Q. 85
+* 오답 정오표 : A -> 정답
+* VCE     정답 : B
+
+examtopics link
+https://www.examtopics.com/discussions/amazon/view/70883-exam-aws-certified-solutions-architect-professional-topic-1/
+
+Q. 99
+* 오답 정오표 : B -> 정답
+* VCE     정답 : A
+
+examtopics link
+https://www.examtopics.com/discussions/amazon/view/80168-exam-aws-certified-solutions-architect-professional-topic-1/
+
+Q. 186
+* 오답 정오표 : B -> 정답
+* VCE     정답 : C
+
+examtopics link
+https://www.examtopics.com/discussions/amazon/view/68867-exam-aws-certified-solutions-architect-professional-topic-1/
+
+Q. 214
+* 오답 정오표 : AD
+* VCE     정답 : AC -> 정답
+
+examtopics link
+https://www.examtopics.com/discussions/amazon/view/78707-exam-aws-certified-solutions-architect-professional-topic-1/
+
+Q. 230
+* 오답 정오표 : A
+* VCE     정답 : C -> 정답
+
+examtopics link
+https://www.examtopics.com/discussions/amazon/view/80267-exam-aws-certified-solutions-architect-professional-topic-1/
+
+Q. 237
+* 오답 정오표 : B
+* VCE     정답 : D -> 정답
+
+examtopics link
+https://www.examtopics.com/discussions/amazon/view/74087-exam-aws-certified-solutions-architect-professional-topic-1/
+
+Q. 293
+* 오답 정오표 : C
+* VCE     정답 : D -> 정답
+
+examtopics link
+https://www.examtopics.com/discussions/amazon/view/82118-exam-aws-certified-solutions-architect-professional-topic-1/
+
+
+
+</details> <!-- 더보기 기능 -->
+
+
 ## 참고 링크
 <details> <!-- 더보기 기능 -->
 <summary>
